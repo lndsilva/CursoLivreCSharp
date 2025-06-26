@@ -47,7 +47,33 @@ namespace Heranca
         private void btnTransferir_Click(object sender, EventArgs e)
         {
             Poupanca poupanca = new Poupanca();
-            
+
+        }
+
+        private void rdbContaPoupanca_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMostrarSaldo_Click(object sender, EventArgs e)
+        {
+            if (rdbContaPoupanca.Checked)
+            {
+                double valor, porc, resp;
+
+                valor = Convert.ToDouble(txtValor.Text);
+                porc = Convert.ToDouble(txtPorcentagem.Text);
+
+                Poupanca cp = new Poupanca();
+
+                resp = cp.calculoRendimento(porc, valor);
+
+                ltbExtrato.Items.Add("Valor a receber: " + resp);
+            }
+            if (rdbContaCorrente.Checked)
+            {
+                ltbExtrato.Items.Add("Valor conta corrente: " + txtValor.Text);
+            }
         }
     }
 }

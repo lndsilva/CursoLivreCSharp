@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConta));
             this.btnSacar = new System.Windows.Forms.Button();
             this.gpbInformacoes = new System.Windows.Forms.GroupBox();
-            this.rdbContaPoupança = new System.Windows.Forms.RadioButton();
+            this.rdbContaPoupanca = new System.Windows.Forms.RadioButton();
             this.rdbContaCorrente = new System.Windows.Forms.RadioButton();
             this.lblExtrato = new System.Windows.Forms.Label();
             this.ltbExtrato = new System.Windows.Forms.ListBox();
-            this.txtTransferir = new System.Windows.Forms.TextBox();
+            this.txtPorcentagem = new System.Windows.Forms.TextBox();
             this.lblTransferir = new System.Windows.Forms.Label();
             this.txtDepositar = new System.Windows.Forms.TextBox();
             this.lblDepositar = new System.Windows.Forms.Label();
@@ -52,7 +52,7 @@
             this.btnSacar.Location = new System.Drawing.Point(318, 301);
             this.btnSacar.Name = "btnSacar";
             this.btnSacar.Size = new System.Drawing.Size(144, 47);
-            this.btnSacar.TabIndex = 0;
+            this.btnSacar.TabIndex = 9;
             this.btnSacar.Text = "Sacar";
             this.btnSacar.UseVisualStyleBackColor = true;
             this.btnSacar.Click += new System.EventHandler(this.btnConta_Click);
@@ -60,11 +60,11 @@
             // gpbInformacoes
             // 
             this.gpbInformacoes.BackColor = System.Drawing.Color.LightGray;
-            this.gpbInformacoes.Controls.Add(this.rdbContaPoupança);
+            this.gpbInformacoes.Controls.Add(this.rdbContaPoupanca);
             this.gpbInformacoes.Controls.Add(this.rdbContaCorrente);
             this.gpbInformacoes.Controls.Add(this.lblExtrato);
             this.gpbInformacoes.Controls.Add(this.ltbExtrato);
-            this.gpbInformacoes.Controls.Add(this.txtTransferir);
+            this.gpbInformacoes.Controls.Add(this.txtPorcentagem);
             this.gpbInformacoes.Controls.Add(this.lblTransferir);
             this.gpbInformacoes.Controls.Add(this.txtDepositar);
             this.gpbInformacoes.Controls.Add(this.lblDepositar);
@@ -74,28 +74,29 @@
             this.gpbInformacoes.Location = new System.Drawing.Point(12, 12);
             this.gpbInformacoes.Name = "gpbInformacoes";
             this.gpbInformacoes.Size = new System.Drawing.Size(600, 278);
-            this.gpbInformacoes.TabIndex = 1;
+            this.gpbInformacoes.TabIndex = 0;
             this.gpbInformacoes.TabStop = false;
             this.gpbInformacoes.Text = "Informações da conta";
             // 
-            // rdbContaPoupança
+            // rdbContaPoupanca
             // 
-            this.rdbContaPoupança.AutoSize = true;
-            this.rdbContaPoupança.Location = new System.Drawing.Point(223, 173);
-            this.rdbContaPoupança.Name = "rdbContaPoupança";
-            this.rdbContaPoupança.Size = new System.Drawing.Size(145, 24);
-            this.rdbContaPoupança.TabIndex = 9;
-            this.rdbContaPoupança.TabStop = true;
-            this.rdbContaPoupança.Text = "Conta poupança";
-            this.rdbContaPoupança.UseVisualStyleBackColor = true;
+            this.rdbContaPoupanca.AutoSize = true;
+            this.rdbContaPoupanca.Location = new System.Drawing.Point(198, 175);
+            this.rdbContaPoupanca.Name = "rdbContaPoupanca";
+            this.rdbContaPoupanca.Size = new System.Drawing.Size(145, 24);
+            this.rdbContaPoupanca.TabIndex = 5;
+            this.rdbContaPoupanca.TabStop = true;
+            this.rdbContaPoupanca.Text = "Conta poupança";
+            this.rdbContaPoupanca.UseVisualStyleBackColor = true;
+            this.rdbContaPoupanca.CheckedChanged += new System.EventHandler(this.rdbContaPoupanca_CheckedChanged);
             // 
             // rdbContaCorrente
             // 
             this.rdbContaCorrente.AutoSize = true;
-            this.rdbContaCorrente.Location = new System.Drawing.Point(223, 118);
+            this.rdbContaCorrente.Location = new System.Drawing.Point(198, 120);
             this.rdbContaCorrente.Name = "rdbContaCorrente";
             this.rdbContaCorrente.Size = new System.Drawing.Size(133, 24);
-            this.rdbContaCorrente.TabIndex = 8;
+            this.rdbContaCorrente.TabIndex = 4;
             this.rdbContaCorrente.TabStop = true;
             this.rdbContaCorrente.Text = "Conta corrente";
             this.rdbContaCorrente.UseVisualStyleBackColor = true;
@@ -113,27 +114,27 @@
             // 
             this.ltbExtrato.FormattingEnabled = true;
             this.ltbExtrato.ItemHeight = 20;
-            this.ltbExtrato.Location = new System.Drawing.Point(421, 88);
+            this.ltbExtrato.Location = new System.Drawing.Point(361, 88);
             this.ltbExtrato.Name = "ltbExtrato";
-            this.ltbExtrato.Size = new System.Drawing.Size(157, 164);
+            this.ltbExtrato.Size = new System.Drawing.Size(219, 164);
             this.ltbExtrato.TabIndex = 6;
             // 
-            // txtTransferir
+            // txtPorcentagem
             // 
-            this.txtTransferir.Location = new System.Drawing.Point(18, 244);
-            this.txtTransferir.MaxLength = 10;
-            this.txtTransferir.Name = "txtTransferir";
-            this.txtTransferir.Size = new System.Drawing.Size(144, 26);
-            this.txtTransferir.TabIndex = 5;
+            this.txtPorcentagem.Location = new System.Drawing.Point(18, 244);
+            this.txtPorcentagem.MaxLength = 10;
+            this.txtPorcentagem.Name = "txtPorcentagem";
+            this.txtPorcentagem.Size = new System.Drawing.Size(104, 26);
+            this.txtPorcentagem.TabIndex = 3;
             // 
             // lblTransferir
             // 
             this.lblTransferir.AutoSize = true;
             this.lblTransferir.Location = new System.Drawing.Point(18, 221);
             this.lblTransferir.Name = "lblTransferir";
-            this.lblTransferir.Size = new System.Drawing.Size(76, 20);
+            this.lblTransferir.Size = new System.Drawing.Size(104, 20);
             this.lblTransferir.TabIndex = 4;
-            this.lblTransferir.Text = "Transferir";
+            this.lblTransferir.Text = "Porcentagem";
             // 
             // txtDepositar
             // 
@@ -141,7 +142,7 @@
             this.txtDepositar.MaxLength = 10;
             this.txtDepositar.Name = "txtDepositar";
             this.txtDepositar.Size = new System.Drawing.Size(144, 26);
-            this.txtDepositar.TabIndex = 3;
+            this.txtDepositar.TabIndex = 2;
             // 
             // lblDepositar
             // 
@@ -174,7 +175,7 @@
             this.btnDepositar.Location = new System.Drawing.Point(12, 301);
             this.btnDepositar.Name = "btnDepositar";
             this.btnDepositar.Size = new System.Drawing.Size(144, 47);
-            this.btnDepositar.TabIndex = 2;
+            this.btnDepositar.TabIndex = 7;
             this.btnDepositar.Text = "Depositar";
             this.btnDepositar.UseVisualStyleBackColor = true;
             this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
@@ -184,7 +185,7 @@
             this.btnTransferir.Location = new System.Drawing.Point(468, 301);
             this.btnTransferir.Name = "btnTransferir";
             this.btnTransferir.Size = new System.Drawing.Size(144, 47);
-            this.btnTransferir.TabIndex = 3;
+            this.btnTransferir.TabIndex = 10;
             this.btnTransferir.Text = "Transferir";
             this.btnTransferir.UseVisualStyleBackColor = true;
             this.btnTransferir.Click += new System.EventHandler(this.btnTransferir_Click);
@@ -194,9 +195,10 @@
             this.btnMostrarSaldo.Location = new System.Drawing.Point(162, 301);
             this.btnMostrarSaldo.Name = "btnMostrarSaldo";
             this.btnMostrarSaldo.Size = new System.Drawing.Size(144, 47);
-            this.btnMostrarSaldo.TabIndex = 4;
+            this.btnMostrarSaldo.TabIndex = 8;
             this.btnMostrarSaldo.Text = "Mostrar Saldo";
             this.btnMostrarSaldo.UseVisualStyleBackColor = true;
+            this.btnMostrarSaldo.Click += new System.EventHandler(this.btnMostrarSaldo_Click);
             // 
             // frmConta
             // 
@@ -226,7 +228,7 @@
         private System.Windows.Forms.GroupBox gpbInformacoes;
         private System.Windows.Forms.Label lblExtrato;
         private System.Windows.Forms.ListBox ltbExtrato;
-        private System.Windows.Forms.TextBox txtTransferir;
+        private System.Windows.Forms.TextBox txtPorcentagem;
         private System.Windows.Forms.Label lblTransferir;
         private System.Windows.Forms.TextBox txtDepositar;
         private System.Windows.Forms.Label lblDepositar;
@@ -235,7 +237,7 @@
         private System.Windows.Forms.Button btnDepositar;
         private System.Windows.Forms.Button btnTransferir;
         private System.Windows.Forms.Button btnMostrarSaldo;
-        private System.Windows.Forms.RadioButton rdbContaPoupança;
+        private System.Windows.Forms.RadioButton rdbContaPoupanca;
         private System.Windows.Forms.RadioButton rdbContaCorrente;
     }
 }
