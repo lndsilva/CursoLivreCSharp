@@ -1,0 +1,14 @@
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\bin\Debug\Padaria.exe.config
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\bin\Debug\Padaria.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\bin\Debug\Padaria.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.csproj.AssemblyReference.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmComponentes.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.Properties.Resources.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.csproj.GenerateResource.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.csproj.CoreCompileInputs.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmSplash.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmLogin.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmMenuPrincipal.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmFuncionarios.resources

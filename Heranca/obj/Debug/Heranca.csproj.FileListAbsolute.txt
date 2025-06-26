@@ -1,0 +1,10 @@
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\bin\Debug\Heranca.exe.config
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\bin\Debug\Heranca.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\bin\Debug\Heranca.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.csproj.AssemblyReference.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.Properties.Resources.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.csproj.GenerateResource.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Heranca\obj\Debug\Heranca.frmConta.resources
