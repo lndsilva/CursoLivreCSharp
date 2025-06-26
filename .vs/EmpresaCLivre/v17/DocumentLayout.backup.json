@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaCLivre\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E5C611A-1A20-4242-AF1D-A4FB05081216}|GerenciarPessoas\\GerenciarPessoas.csproj|c:\\users\\laercio.nsilva\\documents\\visual studio 2022\\empresaclivre\\gerenciarpessoas\\frmcadpessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5C611A-1A20-4242-AF1D-A4FB05081216}|GerenciarPessoas\\GerenciarPessoas.csproj|solutionrelative:gerenciarpessoas\\frmcadpessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E5C611A-1A20-4242-AF1D-A4FB05081216}|GerenciarPessoas\\GerenciarPessoas.csproj|c:\\users\\laercio.nsilva\\documents\\visual studio 2022\\empresaclivre\\gerenciarpessoas\\frmcadpessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E5C611A-1A20-4242-AF1D-A4FB05081216}|GerenciarPessoas\\GerenciarPessoas.csproj|solutionrelative:gerenciarpessoas\\frmcadpessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCadPessoa.cs",
+              "DocumentMoniker": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaCLivre\\GerenciarPessoas\\frmCadPessoa.cs",
+              "RelativeDocumentMoniker": "GerenciarPessoas\\frmCadPessoa.cs",
+              "ToolTip": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaCLivre\\GerenciarPessoas\\frmCadPessoa.cs",
+              "RelativeToolTip": "GerenciarPessoas\\frmCadPessoa.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:53:32.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmCadPessoa.cs [Design]",
               "DocumentMoniker": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaCLivre\\GerenciarPessoas\\frmCadPessoa.cs",
               "RelativeDocumentMoniker": "GerenciarPessoas\\frmCadPessoa.cs",
