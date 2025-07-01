@@ -40,5 +40,12 @@ namespace Padaria
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
         }
+
+        private void btnFuncionarios_Click(object sender, EventArgs e)
+        {
+            frmGerenciaFuncionarios abrir = new frmGerenciaFuncionarios();  
+            abrir.Show();
+            this.Hide();
+        }
     }
 }

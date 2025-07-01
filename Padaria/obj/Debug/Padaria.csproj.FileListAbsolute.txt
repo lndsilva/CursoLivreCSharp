@@ -12,3 +12,4 @@ C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\D
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmLogin.resources
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmMenuPrincipal.resources
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmFuncionarios.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaCLivre\Padaria\obj\Debug\Padaria.frmGerenciaFuncionarios.resources
